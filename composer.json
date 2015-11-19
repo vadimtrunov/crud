@@ -1,0 +1,8 @@
+{
+  "name": "tv88dn/crud",
+  "description": "Package that provide base CRUD operations, search operations, AJAX pagination.",
+  "require": {
+    "php": ">=5.4.0",
+    "tv88dn/reflection": "*"
+  }
+}
