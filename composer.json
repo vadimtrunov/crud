@@ -1,8 +1,22 @@
 {
-  "name": "tv88dn/crud",
+  "name": "tv88dn/yii2-crud",
   "description": "Package that provide base CRUD operations, search operations, AJAX pagination.",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension","CRUD","AJAX","ajax-load"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Vadim Trunov",
+      "email": "vadim.tr@bigdropinc.com"
+    }
+  ],
   "require": {
-    "php": ">=5.4.0",
-    "tv88dn/reflection": "dev-master"
+    "yiisoft/yii2": "*",
+    "tv88dn/yii2-reflection": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "tv88dn\\reflection\\": ""
+    }
   }
 }
